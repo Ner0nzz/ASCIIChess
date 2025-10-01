@@ -1,6 +1,8 @@
 Two-player chess that can be played using the terminal.
 
-A lot of the code was originally written back in June 2023 when I was still in high school. I decided to finish programming this in September 2025. I hope you can see the change in quality. ┐(°ヮ°)┌
+A lot of the code was originally written back in June 2023 when I was still in high school. I decided to finish programming this in September 2025. I hope you can see the change in quality. 
+
+(　´∀｀)b
 
 ```
 _________________________________ 
