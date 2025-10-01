@@ -29,7 +29,7 @@ _________________________________
 
 Squares that are black have an equals sign or "=" on them.
 The game rules and board setup are the same as standard chess.
-Pieces are represented by their respective first letter (with the exception of the knight, whose symbol is "N").
+Pieces are represented by their first letter (with the exception of the knight, whose symbol is "N").
 Black pieces are distinguished with an asterisk in front of their symbol.
 For example, a black pawn on a black square would look like this: "=P*"
 To move a piece, first type in its position, press enter, then type in its ending position. The move/capture will then be played if the action is valid. 
