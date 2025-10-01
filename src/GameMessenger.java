@@ -71,7 +71,7 @@ public class GameMessenger {
 				"  a   b   c   d   e   f   g   h\n");
 		this.messages.add("Squares that are black have an equals sign or \"=\" on them.\n" + //
 				"The game rules and board setup are the same as standard chess.\n" + //
-				"Pieces are represented by their respective first letter in their names (with the exception of the knight, whose symbol is \"N\").\n" + //
+				"Pieces are represented by their first letter (with the exception of the knight, whose symbol is \"N\").\n" + //
 				"Black pieces are distinguished with an asterisk in front of their symbol.\n" + //
 				"For example, a black pawn on a black square would look like this: \"=P*\"\n" + //
 				"To move a piece, first type in its position, press enter, then type in its ending position. The move/capture will then be played if the action is valid. \n" + //
@@ -107,4 +107,5 @@ public class GameMessenger {
 	}
 
 }
+
 
