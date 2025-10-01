@@ -1,8 +1,5 @@
 import java.util.ArrayList;
 
-//TODO:
-//EN PASSANT REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-
 public class Pawn implements Piece {
 	
 	private int type;
@@ -173,3 +170,4 @@ public class Pawn implements Piece {
 	}
 	
 }
+
