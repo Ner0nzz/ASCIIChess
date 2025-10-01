@@ -31,7 +31,7 @@ import java.util.ArrayList;
  * 25 - not a valid position
  * 26 - pawn promotion
  * 27 - promotion options
- * 28 - current move count
+ * 28 - current move number
  * 29 - message border
  * 
  */
@@ -107,3 +107,4 @@ public class GameMessenger {
 	}
 
 }
+
