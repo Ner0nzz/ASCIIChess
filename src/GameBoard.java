@@ -207,7 +207,6 @@ public class GameBoard {
 	}
 	
 	public void removePiece(int col, int row) {
-		//System.out.println("Removing piece at " + row + col);
 		this.gameBoardState[row][col] = null;
 	}
 	
@@ -400,9 +399,8 @@ public class GameBoard {
 		int[] coords = new int[2];
 		coords[0] = Math.abs(raw) / 8;
 		coords[1] = Math.abs(raw) % 8;
-		//System.out.println("Raw: " + raw);
-		//System.out.println("Target Coords: " + coords[1] + ", " + coords[0]);
 		return coords;
 	}
 	
 }
+
