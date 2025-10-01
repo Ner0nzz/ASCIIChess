@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Queen implements Piece{
+public class Queen implements Piece {
 
     private int type;
 	private String name;
@@ -293,3 +293,4 @@ public class Queen implements Piece{
     }
 
 }
+
