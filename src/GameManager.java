@@ -258,8 +258,6 @@ public class GameManager {
 		int[] coords = new int[2];
 		coords[0] = Math.abs(raw) / 8;
 		coords[1] = Math.abs(raw) % 8;
-		//System.out.println("Raw: " + raw);
-		//System.out.println("Target Coords: " + coords[1] + ", " + coords[0]);
 		return coords;
 	}
 
@@ -310,8 +308,6 @@ public class GameManager {
 	 */
 	public boolean checkValidMove(Piece piece, int targetRow, int targetCol) {
 		for (int i = 0; i < piece.getValidMoves(board.getBoard(), this.moveCount, board.getBoardThreats()).size(); i++) {
-			//System.out.println(targetCol + " " + targetRow);
-			//System.out.println(rawToCoords(piece.getValidMoves(board.getBoard(), this.moveCount, board.getBoardThreats()).get(i))[1] + " " + rawToCoords(piece.getValidMoves(board.getBoard(), this.moveCount, board.getBoardThreats()).get(i))[0]);
 			if (rawToCoords(piece.getValidMoves(board.getBoard(), this.moveCount, board.getBoardThreats()).get(i))[1] == targetCol && rawToCoords(piece.getValidMoves(board.getBoard(), this.moveCount, board.getBoardThreats()).get(i))[0] == targetRow) {
 				return true;
 			}
@@ -447,3 +443,4 @@ public class GameManager {
 	}
 	
 }
+
