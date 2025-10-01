@@ -5,6 +5,7 @@ A lot of the code was originally written back in June 2023 when I was still in h
 (　´∀｀)b
 
 ```
+
 Do you want to view a tutorial? y/n
 y
 The chess board of ascii chess is arranged like so:
