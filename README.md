@@ -1,4 +1,4 @@
-Two-player chess that can be played using the terminal.
+Multiple rounds of two-player chess that can be played using the terminal. Games end when one player's king is captured.
 
 A lot of the code was originally written back in June 2023 when I was still in high school. I decided to finish programming this in September 2025. I hope you can also see the change in quality in places. 
 
